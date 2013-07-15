@@ -3,7 +3,7 @@ SECTION = "base"
 PRIORITY = "required"
 LICENSE = "CLOSED"
 
-SRCDATE = "20130410"
+SRCDATE = "20130614"
 KV = "3.5.3"
 PV = "${KV}+${SRCDATE}"
 PR = "r0"
@@ -48,6 +48,6 @@ do_install() {
 	fi
 }
 
-SRC_URI[md5sum] = "954e1616d897d3ea881be3948b23490a"
-SRC_URI[sha256sum] = "19d6fd7fd5237b229a8f66bd724d42cf930920c3afa772cc3311dd8567205ae7"
+SRC_URI[md5sum] = "747b123884a9cc5eeaafd88a2e41a1d9"
+SRC_URI[sha256sum] = "d18f52a71ba36c3d34de8609a346992e90eae5ba0af44463652865c8234aefa8"
 
